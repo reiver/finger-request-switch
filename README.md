@@ -24,3 +24,32 @@ This document is an updated specification for a **finger-protocol** request
 ## Finger-Query Specification
 
 Using the same style of notation as IETF RFC-1288, here is an updated specification for a **finger-query**:
+```
+        {Q1}    ::= [{W}|{W}{S}{U}]{C}
+
+        {Q2}    ::= [{W}{S}][{U}]{H}{C}
+
+        {U}     ::= username
+
+        {H}     ::= @hostname | @hostname{H}
+
+        {W}     ::= /switchname
+
+        {S}     ::= <SP> | <SP>{S}
+
+        {C}     ::= <CRLF>
+```
+
+## What Changed
+
+The change is the definition of `{W}`.
+
+In IETF RFC-1288 it was:
+```
+        {W}     ::= /W
+```
+
+In this document, it has been updated to:
+```
+        {W}     ::= /switchname
+```
