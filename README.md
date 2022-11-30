@@ -96,3 +96,39 @@ So, for example, with out example **finger-request** —
 ```
 
 The `switchname` is `"PULL".`
+
+## Examples
+
+Here are a number of example **finger-requests** where we specify what the `switchname` is
+
+```
+/PUSH
+# switchname = "PUSH"
+
+/PULL
+# switchname = "PULL"
+
+/LIST
+# switchname = "LIST"
+
+/PICK
+# switchname = "PICK"
+
+/banana
+# switchname = "banana"
+
+/path/to/something.ext
+# switchname = "path/to/something.ext"
+
+/once
+# switchname = "once"
+
+/once/twice
+# switchname = "once/twice"
+
+/once/twice/thrice
+# switchname = "once/twice/thrice"
+
+/once/twice/thrice/fource
+# switchname = "once/twice/thrice/fource"
+```
