@@ -1,4 +1,4 @@
-# Finger Request
+# Finger Request Switch
 by [Charles Iliya Krempeaux](http://changelog.ca/)
 
 ## Preamble
