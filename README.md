@@ -1,4 +1,5 @@
 # Finger Request
+by [Charles Iliya Krempeaux](http://changelog.ca/)
 
 ## Preamble
 
