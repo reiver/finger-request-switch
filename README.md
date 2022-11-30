@@ -53,3 +53,22 @@ In this document, it has been updated to:
 ```
         {W}     ::= /switchname
 ```
+
+What this means is that — instead of the **finger-protocol** just having this switch:
+```
+/W
+```
+
+The **finger-protocol**  can have any of these types of switches too:
+```
+/PUSH
+/PULL
+/LIST
+/PICK
+/banana
+/path/to/something.ext
+/once
+/once/twice
+/once/twice/thrice
+/once/twice/thrice/fource
+```
